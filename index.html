@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damasco Flower Shop - Arreglos Florales Profesionales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Damasco Flower Shop</h1>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#categorias" class="nav-link">Categorías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#arreglos" class="nav-link">Arreglos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicios" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Arreglos Florales de Ensueño</h2>
+                <p class="hero-subtitle">Creamos momentos únicos con la belleza natural de las flores</p>
+                <button class="hero-btn">Ver Colección</button>
+            </div>
+            <div class="hero-decoration"></div>
+        </section>
+
+        <!-- Categorías Section -->
+        <section id="categorias" class="categorias">
+            <div class="container">
+                <h2 class="section-title">Nuestras Categorías</h2>
+                <div class="categorias-nav">
+                    <button class="categoria-btn active" data-categoria="todos">Todos</button>
+                    <button class="categoria-btn" data-categoria="bodas">Bodas</button>
+                    <button class="categoria-btn" data-categoria="lujo">Lujo Premium</button>
+                    <button class="categoria-btn" data-categoria="eventos">Eventos</button>
+                    <button class="categoria-btn" data-categoria="corporativo">Corporativo</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Arreglos Section -->
+        <section id="arreglos" class="arreglos">
+            <div class="container">
+                <h2 class="section-title">Nuestros Arreglos</h2>
+                <div class="arreglos-grid" id="arreglos-grid">
+                    <!-- Categoría: Lujo Premium -->
+                    <div class="arreglo-card" data-categoria="lujo">
+                        <div class="card-image">
+                            <img src="img/flores1.jpg" alt="Rosas Elegantes - Arreglos florales clásicos">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Premium</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Rosas Elegantes</h3>
+                            <p>Arreglos clásicos con rosas rojas y toques dorados para ocasiones especiales</p>
+                            <span class="precio">Desde $75.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Lujo Premium -->
+                    <div class="arreglo-card" data-categoria="lujo">
+                        <div class="card-image">
+                            <img src="img/flores2.jpg" alt="Lujo Dorado - Arreglos florales de alta gama">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Premium</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Lujo Dorado</h3>
+                            <p>Sofisticación pura con arreglos exclusivos en tonos dorados y blancos</p>
+                            <span class="precio">Desde $95.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Eventos -->
+                    <div class="arreglo-card" data-categoria="eventos">
+                        <div class="card-image">
+                            <img src="img/Imagen de WhatsApp 2025-10-06 a las 22.49.47_f41d51d9.jpg" alt="Distinción Exclusiva - Arreglos florales únicos">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Eventos</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Distinción Exclusiva</h3>
+                            <p>Arreglos únicos y modernos con elegancia contemporánea y distinción</p>
+                            <span class="precio">Desde $85.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Bodas -->
+                    <div class="arreglo-card" data-categoria="bodas">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop" alt="Ramo de Novia Clásico">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Bodas</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Ramo de Novia Clásico</h3>
+                            <p>Elegante ramo nupcial con rosas blancas y eucalipto para el día más especial</p>
+                            <span class="precio">Desde $120.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Bodas -->
+                    <div class="arreglo-card" data-categoria="bodas">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?q=80&w=2070&auto=format&fit=crop" alt="Centerpiece de Boda">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Bodas</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Centerpiece Romántico</h3>
+                            <p>Arreglos centrales para mesas de boda con peonías y rosas en tonos suaves</p>
+                            <span class="precio">Desde $65.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Lujo Premium -->
+                    <div class="arreglo-card" data-categoria="lujo">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2070&auto=format&fit=crop" alt="Bouquet de Lujo">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Premium</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Bouquet Imperial</h3>
+                            <p>Arreglo de lujo con flores exóticas importadas y terminados en oro</p>
+                            <span class="precio">Desde $150.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Corporativo -->
+                    <div class="arreglo-card" data-categoria="corporativo">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?q=80&w=2070&auto=format&fit=crop" alt="Arreglo Corporativo">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Corporativo</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Elegancia Corporativa</h3>
+                            <p>Arreglos sobrios y elegantes perfectos para oficinas y eventos empresariales</p>
+                            <span class="precio">Desde $55.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Eventos -->
+                    <div class="arreglo-card" data-categoria="eventos">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=2070&auto=format&fit=crop" alt="Arreglo para Eventos">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Eventos</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Fiesta Elegante</h3>
+                            <p>Diseños vibrantes y llamativos perfectos para celebraciones y fiestas</p>
+                            <span class="precio">Desde $70.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Lujo Premium -->
+                    <div class="arreglo-card" data-categoria="lujo">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1574684891174-df6b02ab38d7?q=80&w=2070&auto=format&fit=crop" alt="Rosa Premium">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Premium</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Rosa de Terciopelo</h3>
+                            <p>Arreglo exclusivo con rosas de terciopelo rojo y acabados en cristal</p>
+                            <span class="precio">Desde $110.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Corporativo -->
+                    <div class="arreglo-card" data-categoria="corporativo">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2070&auto=format&fit=crop" alt="Minimalista Corporativo">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Corporativo</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Minimalista Pro</h3>
+                            <p>Diseño limpio y moderno ideal para espacios corporativos contemporáneos</p>
+                            <span class="precio">Desde $45.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Bodas -->
+                    <div class="arreglo-card" data-categoria="bodas">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=2070&auto=format&fit=crop" alt="Decoración Nupcial">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Bodas</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Decoración Nupcial</h3>
+                            <p>Conjunto completo de decoración floral para ceremonias y recepciones</p>
+                            <span class="precio">Desde $200.000</span>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Eventos -->
+                    <div class="arreglo-card" data-categoria="eventos">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2070&auto=format&fit=crop" alt="Celebración Especial">
+                            <div class="card-overlay">
+                                <span class="categoria-tag">Eventos</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Celebración Especial</h3>
+                            <p>Arreglos temáticos personalizados para cumpleaños y aniversarios</p>
+                            <span class="precio">Desde $80.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios Section -->
+        <section id="servicios" class="servicios">
+            <div class="container">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <div class="servicios-grid">
+                    <div class="servicio-item">
+                        <div class="servicio-icon">🌹</div>
+                        <h3>Bodas</h3>
+                        <p>Diseños florales únicos para el día más especial</p>
+                    </div>
+                    <div class="servicio-item">
+                        <div class="servicio-icon">🎂</div>
+                        <h3>Eventos</h3>
+                        <p>Decoración floral profesional para todo tipo de eventos</p>
+                    </div>
+                    <div class="servicio-item">
+                        <div class="servicio-icon">🏠</div>
+                        <h3>Domicilio</h3>
+                        <p>Entregamos tus arreglos favoritos donde los necesites</p>
+                    </div>
+                    <div class="servicio-item">
+                        <div class="servicio-icon">💼</div>
+                        <h3>Corporativo</h3>
+                        <p>Arreglos florales para oficinas y eventos empresariales</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto Section -->
+        <section id="contacto" class="contacto">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <div class="contacto-content">
+                    <div class="contacto-info">
+                        <div class="info-item">
+                            <h4>Teléfono</h4>
+                            <p>+57 (1) 234-5678</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Email</h4>
+                            <p>info@damascoflowers.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Dirección</h4>
+                            <p>Carrera 15 #85-42, Bogotá, Colombia</p>
+                        </div>
+                    </div>
+                    <form class="contacto-form">
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="Correo electrónico" required>
+                        <input type="tel" placeholder="Teléfono">
+                        <textarea placeholder="Mensaje" rows="5" required></textarea>
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Damasco Flower Shop. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
